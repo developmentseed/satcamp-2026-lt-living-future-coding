@@ -27,9 +27,7 @@ title-slide-attributes:
 ::: {.center-v}
 ### We're Zac & Pete — Development Seed
 
-This is what we're seeing from inside the work.
-
-[Last year, Pete asked where coding was headed.]{.detail}
+This is what we're seeing from inside our work.
 :::
 
 ::: {.notes}
@@ -39,7 +37,7 @@ Zac. Quick hello, then hand off to Pete.
 ## {#slide-2 background-color="#0a0a0a"}
 
 ::: {.center-v}
-### Last year, Pete predicted more people would create software.
+### Last year, we predicted more people would create software.
 
 [Not just people with “software engineer” in their title.]{.detail}
 [It wasn't that bold of a prediction.]{.detail .scribble}
@@ -52,13 +50,63 @@ Pete. Connect this to last year's talk.
 ## {#slide-3 background-color="#0a0a0a"}
 
 ::: {.center-v}
-### This year, we've been receiving vibe-coded projects.
+### The five stages of AI coding grief
 
-[People aren't waiting for a software team to start building—and their projects work.]{.detail}
+::: {.grief-label-row}
+::: {.grief-label-span}
+[Last year]{.stage-year}
+:::
+::: {.grief-label-spacer}
+:::
+:::
+
+::: {.grief-cycle}
+::: {.grief-stage .current}
+**Denial**
+
+“It can't do real work.”
+:::
+::: {.grief-arrow}
+→
+:::
+::: {.grief-stage .current}
+**Anger**
+
+“This isn't coding.”
+:::
+::: {.grief-arrow}
+→
+:::
+::: {.grief-stage .current}
+**Bargaining**
+
+“Only for boilerplate.”
+:::
+::: {.grief-arrow}
+→
+:::
+::: {.grief-stage .current}
+**Despair**
+
+“Well, this is awkward.”
+:::
+::: {.grief-arrow}
+→
+:::
+::: {.grief-stage}
+[This year]{.stage-year}
+
+**Acceptance**
+
+“This is how we build now.”
+:::
+:::
+
+[Last year: grappling with the changes.]{.detail}
 :::
 
 ::: {.notes}
-Pete.
+Pete. Last year, our industry was cycling through the first four stages.
 :::
 
 ## {#slide-4 background-color="#0a0a0a"}
@@ -120,102 +168,91 @@ Pete.
 :::
 
 ::: {.notes}
-Pete. Last year, our industry was cycling through the first four stages. This year, nearly everyone seems to have reached acceptance.
+Pete. This year, nearly everyone seems to have reached acceptance.
 :::
 
 ## {#slide-5 background-color="#0a0a0a"}
 
 ::: {.center-v}
-### Vibe-coded projects have a short shelf life
-
-[Security · Operations · Maintinance · Depth of product]{.detail}
-:::
-
-::: {.notes}
-Pete.
+### What does acceptance look like?
 :::
 
 ## {#slide-6 background-color="#0a0a0a"}
 
 ::: {.center-v}
-### AI reduced the cost of starting.
+### We receive vibe-coded projects.
 
-[Not the cost of understanding.]{.green}
-
-[The work around implementation became easier to see.]{.detail}
-:::
-
-::: {.notes}
-Pete. Hand off to Zac after this slide.
+[People aren't waiting for a software team to start building — and their projects work.]{.detail}
 :::
 
 ## {#slide-7 background-color="#0a0a0a"}
 
 ::: {.center-v}
+### We're working with teams who vibe-code.
+
+[Our partners help create software with AI tools.]{.detail}
+:::
+
+## {#slide-8 background-color="#0a0a0a"}
+
+::: {.center-v}
+### We vibe code.
+:::
+
+## {#slide-9 background-color="#0a0a0a"}
+
+::: {.center-v}
+### Acceptance demands critical thinking.
+
+["Vibe-coding" has many flavors.]{.detail}
+:::
+
+## {#slide-10 background-color="#0a0a0a"}
+
+::: {.center-v}
+### Good vibe-coding is still software engineering
+
+[Vibe-coded projects can be excellent software.]{.orange}
+
+[Tests — CI/CD — Architectural patterns — Sharp, focused tools]{.detail}
+:::
+
+## {#slide-11 background-color="#0a0a0a"}
+
+::: {.center-v}
 ![](images/human-network.svg){fig-alt="A dense network of interconnected people with several relationships highlighted" width=900}
 
-### Clarity lives in relationships.
+### Without design and collaboration, products lack depth and texture
 
-[Context is not the same as nuance.]{.detail}
+[Connections and iteration are needed to create excellence]{.orange}
 :::
 
 ::: {.notes}
 Zac. Name users, partners, organizations, and the people doing the work.
 :::
 
-## {#slide-8 background-color="#0a0a0a"}
+## {#slide-12 background-color="#0a0a0a"}
 
 ::: {.center-v}
-### Before: what is actually worth building?
+### When you can build anything, how do you decide what to build?
 
-[Understand the real problem—not merely the first request.]{.detail}
+[Product questions should preceed develpoment]{.orange}
 :::
 
-::: {.notes}
-Zac.
-:::
-
-## {#slide-9 background-color="#0a0a0a"}
+## {#slide-13 background-color="#0a0a0a"}
 
 ::: {.center-v}
-### During: agree on how AI participates.
+### The same pain points still exist
 
-[What can it generate? What do people review? Where are decisions recorded?]{.detail}
+[Human-centric design still requires humans]{.orange}
 :::
 
-::: {.notes}
-Zac. Treat the agent like a collaborator with explicit ground rules.
-:::
-
-## {#slide-10 background-color="#0a0a0a"}
+## {#slide-14 background-color="#0a0a0a"}
 
 ::: {.center-v}
 ![](images/test.svg){fig-alt="Checklist icon" width=260}
 
-### Tests are part of the prompt.
-
-[Define what “correct” means from the beginning.]{.detail}
-:::
-
-::: {.notes}
-Zac. Tests are not cleanup after generation.
-:::
-
-## {#slide-11 background-color="#0a0a0a"}
-
-::: {.center-v}
-### CI/CD · linting · security scanning
-
-[Guardrails, not garnish.]{.green}
-
-[Code can now arrive faster than people can understand it.]{.detail}
-:::
-
-::: {.notes}
-Zac.
-:::
-
-## {#slide-12 background-color="#0a0a0a"}
+## {#slide-16 background-color="#0a0a0a"}
 
 ::: {.center-v}
 ### Small iterations keep the work understandable.
@@ -227,7 +264,7 @@ Zac.
 Zac. Contrast this with receiving a wall of generated code.
 :::
 
-## {#slide-13 background-color="#0a0a0a"}
+## {#slide-17 background-color="#0a0a0a"}
 
 ::: {.center-v}
 ### After: the code keeps arriving.
@@ -239,7 +276,7 @@ Zac. Contrast this with receiving a wall of generated code.
 Zac. Shipping is no longer the end.
 :::
 
-## {#slide-14 background-color="#0a0a0a"}
+## {#slide-18 background-color="#0a0a0a"}
 
 ::: {.center-v}
 ### Maintainership is becoming curation.
@@ -251,7 +288,7 @@ Zac. Shipping is no longer the end.
 Zac. Maintenance still matters; its center of gravity is shifting. Hand off to Pete.
 :::
 
-## {#slide-15 background-color="#0a0a0a"}
+## {#slide-19 background-color="#0a0a0a"}
 
 ::: {.center-v}
 ### What belongs?
@@ -267,12 +304,12 @@ Zac. Maintenance still matters; its center of gravity is shifting. Hand off to P
 Pete.
 :::
 
-## {#slide-16 background-color="#0a0a0a"}
+## {#slide-20 background-color="#0a0a0a"}
 
 ::: {.center-v}
 ### An open-source project is not its repository.
 
-[It is a community.]{.green}
+[It is a community.]{.orange}
 
 [Users · Contributors · Institutions · Expectations · Disagreements]{.detail}
 :::
@@ -281,7 +318,7 @@ Pete.
 Pete. The relationships are part of the project too.
 :::
 
-## {#slide-17 background-color="#0a0a0a"}
+## {#slide-21 background-color="#0a0a0a"}
 
 ::: {.center-v}
 ### Community management does not automate away.
@@ -293,7 +330,7 @@ Pete. The relationships are part of the project too.
 Pete. Someone still has to do this work.
 :::
 
-## {#slide-18 background-color="#0a0a0a"}
+## {#slide-22 background-color="#0a0a0a"}
 
 ::: {.center-v}
 ### But who plays the curator?
@@ -302,14 +339,26 @@ Maintainers? · Service companies? · Foundations?
 
 AI agents? · The community itself?
 
-[We don't know yet.]{.green}
+[We don't know yet.]{.orange}
 :::
 
 ::: {.notes}
 Pete. Include domain experts among the possibilities. Keep this genuinely open.
 :::
 
-## {#slide-19 background-color="#0a0a0a"}
+## {#slide-23 background-color="#0a0a0a"}
+
+::: {.center-v}
+### Collaboration frameworks are changing?
+
+[More room for design, more room for post-delivery documentation and engagement.]{.orange}
+:::
+
+::: {.notes}
+Pete. Include domain experts among the possibilities. Keep this genuinely open.
+:::
+
+## {#slide-23 background-color="#0a0a0a"}
 
 ::: {.center-v}
 ### Our wildest hope
@@ -327,7 +376,7 @@ Curators make abundance useful.
 Pete. Emphasize participation, community agency, and durable infrastructure.
 :::
 
-## {#slide-20 background-color="#0a0a0a"}
+## {#slide-24 background-color="#0a0a0a"}
 
 ::: {.center-v}
 ### AI can generate possibilities.
@@ -336,7 +385,7 @@ People still decide what becomes shared infrastructure.
 
 [Attention · Judgment · Community]{.detail}
 
-[Come find us.]{.green}
+[Come find us.]{.orange}
 :::
 
 ::: {.notes}

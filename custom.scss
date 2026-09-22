@@ -19,7 +19,7 @@ $presentation-h2-font-size: 1.8em;
 .reveal h1,
 .reveal h2,
 .reveal h3 {
-  color: #09e57b;
+  color: #CF3F02;
   font-family: 'Sulphur Point', sans-serif;
   font-weight: 700;
   text-transform: none;
@@ -27,15 +27,15 @@ $presentation-h2-font-size: 1.8em;
 }
 
 .reveal a {
-  color: #09e57b;
+  color: #CF3F02;
 }
 
 .reveal .progress {
-  color: #09e57b;
+  color: #CF3F02;
 }
 
 .reveal .slide-number {
-  color: #09e57b;
+  color: #CF3F02;
   background-color: transparent;
   font-family: 'Sulphur Point', sans-serif;
 }
@@ -52,7 +52,7 @@ $presentation-h2-font-size: 1.8em;
 
 .big-number {
   font-size: 7rem;
-  color: #09e57b;
+  color: #CF3F02;
   font-weight: 700;
   line-height: 1;
   display: block;
@@ -79,8 +79,8 @@ $presentation-h2-font-size: 1.8em;
   font-size: 0.85em;
 }
 
-.green {
-  color: #09e57b;
+.orange {
+  color: #CF3F02;
 }
 
 .detail {
@@ -92,7 +92,7 @@ $presentation-h2-font-size: 1.8em;
 
 .scribble {
   font-family: 'Caveat', cursive;
-  color: #f5a623;
+  color: #CF3F02;
 }
 
 .grief-cycle {
@@ -122,7 +122,7 @@ $presentation-h2-font-size: 1.8em;
   flex: 1 1 0;
   min-height: 130px;
   padding: 0.65rem;
-  border: 2px solid rgba(9, 229, 123, 0.55);
+  border: 2px solid rgba(207, 63, 2, 0.55);
   border-radius: 14px;
   flex-direction: column;
   align-items: center;
@@ -133,15 +133,15 @@ $presentation-h2-font-size: 1.8em;
 }
 
 .grief-stage strong {
-  color: #09e57b;
+  color: #CF3F02;
   font-size: 1.08em;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .grief-stage.current {
-  border-color: #09e57b;
-  box-shadow: 0 0 30px rgba(9, 229, 123, 0.16);
+  border-color: #CF3F02;
+  box-shadow: 0 0 30px rgba(207, 63, 2, 0.16);
   opacity: 1;
 }
 
@@ -165,7 +165,7 @@ $presentation-h2-font-size: 1.8em;
 }
 
 .formula .highlight {
-  color: #09e57b;
+  color: #CF3F02;
   font-weight: 700;
 }
 
@@ -198,7 +198,7 @@ $presentation-h2-font-size: 1.8em;
   right: 0;
   height: 3px;
   z-index: 40;
-  background-color: rgba(9, 229, 123, 0.12);
+  background-color: rgba(207, 63, 2, 0.12);
   pointer-events: none;
 }
 
@@ -208,7 +208,7 @@ $presentation-h2-font-size: 1.8em;
   left: 0;
   right: 0;
   height: 100%;
-  background-color: rgba(9, 229, 123, 0.55);
+  background-color: rgba(207, 63, 2, 0.55);
   transform-origin: right;
   animation: countdown-rtl 15s linear forwards;
 }
@@ -232,9 +232,9 @@ $presentation-h2-font-size: 1.8em;
 
 .stamp {
   display: inline-block;
-  border: 4px solid #09e57b;
+  border: 4px solid #CF3F02;
   border-radius: 50%;
-  color: #09e57b;
+  color: #CF3F02;
   font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
