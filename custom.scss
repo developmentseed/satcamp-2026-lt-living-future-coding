@@ -90,6 +90,54 @@ $presentation-h2-font-size: 1.8em;
   line-height: 1.35;
 }
 
+.grief-cycle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  width: 100%;
+}
+
+.grief-stage {
+  display: flex;
+  flex: 1 1 0;
+  min-height: 130px;
+  padding: 0.65rem;
+  border: 2px solid rgba(9, 229, 123, 0.55);
+  border-radius: 14px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.52em;
+  line-height: 1.25;
+  opacity: 0.42;
+}
+
+.grief-stage strong {
+  color: #09e57b;
+  font-size: 1.08em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.grief-stage.current {
+  border-color: #09e57b;
+  box-shadow: 0 0 30px rgba(9, 229, 123, 0.16);
+  opacity: 1;
+}
+
+.stage-year {
+  margin-bottom: 0.25rem;
+  color: #fafafa;
+  font-size: 0.72em;
+  text-transform: uppercase;
+}
+
+.grief-arrow {
+  color: rgba(250, 250, 250, 0.45);
+  font-size: 0.65em;
+}
+
 .formula {
   font-size: 3.5rem;
   color: #fafafa;

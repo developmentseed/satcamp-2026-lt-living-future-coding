@@ -53,7 +53,7 @@ Pete. Connect this to last year's talk.
 ::: {.center-v}
 ### This year, their projects are arriving at our door.
 
-[People aren't waiting for a software team to start building.]{.detail}
+[People aren't waiting for a software team to start building—and their projects work.]{.detail}
 :::
 
 ::: {.notes}
@@ -63,15 +63,57 @@ Pete.
 ## {#slide-4 background-color="#0a0a0a"}
 
 ::: {.center-v}
-![](images/problem.svg){fig-alt="Stick figure surrounded by question marks" width=280}
+### The five stages of AI coding grief
 
-### And they work.
+[Last year →]{.detail}
 
-[Useful things. Tested ideas. Real users.]{.detail}
+::: {.grief-cycle}
+::: {.grief-stage}
+**Denial**
+
+“It can't do real work.”
+:::
+::: {.grief-arrow}
+→
+:::
+::: {.grief-stage}
+**Anger**
+
+“This isn't coding.”
+:::
+::: {.grief-arrow}
+→
+:::
+::: {.grief-stage}
+**Bargaining**
+
+“Only for boilerplate.”
+:::
+::: {.grief-arrow}
+→
+:::
+::: {.grief-stage}
+**Despair**
+
+“Well, this is awkward.”
+:::
+::: {.grief-arrow}
+→
+:::
+::: {.grief-stage .current}
+[This year]{.stage-year}
+
+**Acceptance**
+
+“This is how we build now.”
+:::
+:::
+
+[This year: the question changed from “Will we?” to “How do we do it well?”]{.detail}
 :::
 
 ::: {.notes}
-Pete. These are not imaginary demos.
+Pete. Last year, our industry was cycling through the first four stages. This year, nearly everyone seems to have reached acceptance.
 :::
 
 ## {#slide-5 background-color="#0a0a0a"}
