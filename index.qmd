@@ -198,6 +198,8 @@ Pete. This year, nearly everyone seems to have reached acceptance.
 ::: {.center-v}
 ### We vibe-code.
 
+![](images/shame.gif){fig-alt="Shame"}
+
 [We're always learning.]{.detail}
 :::
 
