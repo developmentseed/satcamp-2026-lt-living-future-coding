@@ -196,7 +196,9 @@ Pete. This year, nearly everyone seems to have reached acceptance.
 ## {#slide-8 background-color="#0a0a0a"}
 
 ::: {.center-v}
-### We vibe code.
+### We vibe-code.
+
+[We're always learning.]{.detail}
 :::
 
 ## {#slide-9 background-color="#0a0a0a"}
@@ -303,6 +305,10 @@ Pete. Include domain experts among the possibilities. Keep this genuinely open.
 
 ::: {.center-v}
 ### What will next year's presentation be about?
+
+[How do we align incentives towards the three filters?]{.detail}
+
+[True · Kind · Necessary]{.orange}
 :::
 
 ## {#slide-applause background-color="#0a0a0a"}
