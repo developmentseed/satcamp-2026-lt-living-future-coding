@@ -1,0 +1,22 @@
+<svg viewBox="0 0 220 340" width="220" height="340" xmlns="http://www.w3.org/2000/svg">
+  <!-- lightbulb -->
+  <circle cx="165" cy="65" r="30" stroke="#09e57b" stroke-width="5" fill="rgba(9,229,123,0.2)"/>
+  <line x1="157" y1="92" x2="157" y2="105" stroke="#09e57b" stroke-width="4"/>
+  <line x1="173" y1="92" x2="173" y2="105" stroke="#09e57b" stroke-width="4"/>
+  <line x1="155" y1="105" x2="175" y2="105" stroke="#09e57b" stroke-width="4"/>
+  <!-- rays -->
+  <line x1="165" y1="30" x2="165" y2="18" stroke="#09e57b" stroke-width="3"/>
+  <line x1="188" y1="40" x2="197" y2="31" stroke="#09e57b" stroke-width="3"/>
+  <line x1="197" y1="65" x2="209" y2="65" stroke="#09e57b" stroke-width="3"/>
+  <line x1="142" y1="40" x2="133" y2="31" stroke="#09e57b" stroke-width="3"/>
+  <line x1="133" y1="65" x2="121" y2="65" stroke="#09e57b" stroke-width="3"/>
+  <!-- stick figure -->
+  <circle cx="100" cy="145" r="28" stroke="#09e57b" stroke-width="5" fill="none"/>
+  <line x1="100" y1="173" x2="100" y2="260" stroke="#09e57b" stroke-width="5"/>
+  <line x1="100" y1="205" x2="50" y2="235" stroke="#09e57b" stroke-width="5"/>
+  <line x1="100" y1="205" x2="150" y2="235" stroke="#09e57b" stroke-width="5"/>
+  <line x1="100" y1="260" x2="65" y2="325" stroke="#09e57b" stroke-width="5"/>
+  <line x1="100" y1="260" x2="135" y2="325" stroke="#09e57b" stroke-width="5"/>
+  <!-- arm pointing up to bulb -->
+  <line x1="150" y1="228" x2="168" y2="100" stroke="#09e57b" stroke-width="5"/>
+</svg>

@@ -1,0 +1,6 @@
+[project]
+name = "lightning-talk"
+version = "0.1.0"
+description = "SatCamp Lightning Talk Quarto Template"
+requires-python = ">=3.11"
+dependencies = []

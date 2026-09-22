@@ -1,0 +1,11 @@
+<svg viewBox="0 0 200 240" width="200" height="240" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="35" r="28" stroke="#fafafa" stroke-width="5" fill="none"/>
+  <line x1="100" y1="63" x2="100" y2="155" stroke="#fafafa" stroke-width="5"/>
+  <line x1="100" y1="95" x2="50" y2="125" stroke="#fafafa" stroke-width="5"/>
+  <line x1="100" y1="95" x2="150" y2="125" stroke="#fafafa" stroke-width="5"/>
+  <line x1="100" y1="155" x2="65" y2="220" stroke="#fafafa" stroke-width="5"/>
+  <line x1="100" y1="155" x2="135" y2="220" stroke="#fafafa" stroke-width="5"/>
+  <!-- question marks -->
+  <text x="155" y="50" fill="#09e57b" font-size="40" font-family="Sulphur Point, sans-serif">?</text>
+  <text x="35" y="70" fill="#09e57b" font-size="30" font-family="Sulphur Point, sans-serif">?</text>
+</svg>
