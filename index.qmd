@@ -28,30 +28,36 @@ title-slide-attributes:
 ### We're Zac & Pete — Development Seed
 
 This is what we're seeing from inside the work.
+
+[Last year, Pete asked where coding was headed.]{.detail}
 :::
 
 ::: {.notes}
-Zac. Quick hello: we're Zac and Pete from Development Seed. Last year, Pete shared an idea about where coding was headed.
+Zac. Quick hello, then hand off to Pete.
 :::
 
 ## {#slide-2 background-color="#0a0a0a"}
 
 ::: {.center-v}
 ### Last year, Pete predicted more people would create software.
+
+[Not just people with “software engineer” in their title.]{.detail}
 :::
 
 ::: {.notes}
-Pete. AI would let more people manifest their ideas in code—not just people with “software engineer” in their title.
+Pete. Connect this to last year's talk.
 :::
 
 ## {#slide-3 background-color="#0a0a0a"}
 
 ::: {.center-v}
 ### This year, their projects are arriving at our door.
+
+[People aren't waiting for a software team to start building.]{.detail}
 :::
 
 ::: {.notes}
-Pete. That prediction is already coming true. We're meeting people who didn't wait for a software team to start building.
+Pete.
 :::
 
 ## {#slide-4 background-color="#0a0a0a"}
@@ -60,20 +66,24 @@ Pete. That prediction is already coming true. We're meeting people who didn't wa
 ![](images/problem.svg){fig-alt="Stick figure surrounded by question marks" width=280}
 
 ### And they work.
+
+[Useful things. Tested ideas. Real users.]{.detail}
 :::
 
 ::: {.notes}
-Pete. These aren't imaginary demos. People have built useful things, tested an idea, and found users.
+Pete. These are not imaginary demos.
 :::
 
 ## {#slide-5 background-color="#0a0a0a"}
 
 ::: {.center-v}
 ### Until they need to survive.
+
+[Another developer · Security · Operations · Life beyond the prompt]{.detail}
 :::
 
 ::: {.notes}
-Pete. Then the project needs another developer, real users, security, operations, or a life beyond the original prompt.
+Pete.
 :::
 
 ## {#slide-6 background-color="#0a0a0a"}
@@ -82,42 +92,50 @@ Pete. Then the project needs another developer, real users, security, operations
 ### AI reduced the cost of starting.
 
 [Not the cost of understanding.]{.green}
+
+[The work around implementation became easier to see.]{.detail}
 :::
 
 ::: {.notes}
-Pete. Implementation got cheaper. The work around it didn't disappear; it became easier to see.
+Pete. Hand off to Zac after this slide.
 :::
 
 ## {#slide-7 background-color="#0a0a0a"}
 
 ::: {.center-v}
-![](images/human-network.svg){fig-alt="A dense network of interconnected people with several relationships highlighted" width=1050}
+![](images/human-network.svg){fig-alt="A dense network of interconnected people with several relationships highlighted" width=900}
 
 ### Clarity lives in relationships.
+
+[Context is not the same as nuance.]{.detail}
 :::
 
 ::: {.notes}
-Zac. A model can hold a lot of context. It cannot own the nuance between users, partners, organizations, and the people doing the work.
+Zac. Name users, partners, organizations, and the people doing the work.
 :::
 
 ## {#slide-8 background-color="#0a0a0a"}
 
 ::: {.center-v}
 ### Before: what is actually worth building?
+
+[Understand the real problem—not merely the first request.]{.detail}
 :::
 
 ::: {.notes}
-Zac. Before implementation, our job is to understand the real problem—not merely turn the first request into code.
+Zac.
 :::
 
 ## {#slide-9 background-color="#0a0a0a"}
 
 ::: {.center-v}
 ### During: agree on how AI participates.
+
+[What can it generate? What do people review? Where are decisions recorded?]{.detail}
 :::
 
 ::: {.notes}
-Zac. Treat the agent like a collaborator. Set ground rules for what it generates, what people review, and how decisions get recorded.
+Zac. Treat the agent like a collaborator with explicit ground rules.
 :::
 
 ## {#slide-10 background-color="#0a0a0a"}
@@ -126,10 +144,12 @@ Zac. Treat the agent like a collaborator. Set ground rules for what it generates
 ![](images/test.svg){fig-alt="Checklist icon" width=260}
 
 ### Tests are part of the prompt.
+
+[Define what “correct” means from the beginning.]{.detail}
 :::
 
 ::: {.notes}
-Zac. Tests aren't cleanup after generation. They're part of defining what correct means from the beginning.
+Zac. Tests are not cleanup after generation.
 :::
 
 ## {#slide-11 background-color="#0a0a0a"}
@@ -138,88 +158,106 @@ Zac. Tests aren't cleanup after generation. They're part of defining what correc
 ### CI/CD · linting · security scanning
 
 [Guardrails, not garnish.]{.green}
+
+[Code can now arrive faster than people can understand it.]{.detail}
 :::
 
 ::: {.notes}
-Zac. The usual engineering practices matter more when code can arrive faster than people can understand it.
+Zac.
 :::
 
 ## {#slide-12 background-color="#0a0a0a"}
 
 ::: {.center-v}
 ### Small iterations keep the work understandable.
+
+[Small PRs · Short feedback loops · Shared ownership]{.detail}
 :::
 
 ::: {.notes}
-Zac. Small pull requests and short feedback loops let a team maintain shared ownership instead of receiving a wall of generated code.
+Zac. Contrast this with receiving a wall of generated code.
 :::
 
 ## {#slide-13 background-color="#0a0a0a"}
 
 ::: {.center-v}
-### After: following through, validating, recentering?
+### After: the code keeps arriving.
+
+[Contributions · Forks · Experiments · Feature requests]{.detail}
 :::
 
 ::: {.notes}
-Zac. Productionizing isn't just finishing a repository. Someone has to validate the result and take responsibility for what happens next.
+Zac. Shipping is no longer the end.
 :::
 
 ## {#slide-14 background-color="#0a0a0a"}
 
 ::: {.center-v}
-[APPROVED]{.stamp}
+### Maintainership is becoming curation.
 
-Not a prompt. A relationship.
+[Shape an abundant stream of possible changes.]{.detail}
 :::
 
 ::: {.notes}
-Zac. This is the value we keep returning to: judgment, trust, and the willingness to put our name on the result.
+Zac. Maintenance still matters; its center of gravity is shifting. Hand off to Pete.
 :::
 
 ## {#slide-15 background-color="#0a0a0a"}
 
 ::: {.center-v}
-### Writing code is becoming a smaller part of coding.
+### What belongs?
+
+### What works?
+
+### What lasts?
+
+[Purpose · Trust · What the community can sustain]{.detail}
 :::
 
 ::: {.notes}
-Pete. Code still matters. But producing lines of it is becoming a smaller share of the complete job.
+Pete.
 :::
 
 ## {#slide-16 background-color="#0a0a0a"}
 
 ::: {.center-v}
-### The practitioner's job is becoming larger.
+### An open-source project is not its repository.
+
+[It is a community.]{.green}
+
+[Users · Contributors · Institutions · Expectations · Disagreements]{.detail}
 :::
 
 ::: {.notes}
-Pete. We review, hold context, make design calls, understand risk, talk to users, and maintain the system after the exciting part.
+Pete. The relationships are part of the project too.
 :::
 
 ## {#slide-17 background-color="#0a0a0a"}
 
 ::: {.center-v}
-### More creators. More need for practitioners.
+### Community management does not automate away.
+
+[Welcome · Explain · Resolve · Connect · Build trust]{.detail}
 :::
 
 ::: {.notes}
-Pete. Vibe-coded projects are not failures. They are unfinished successes—and they create more demand for people who know how to help them endure.
+Pete. Someone still has to do this work.
 :::
 
 ## {#slide-18 background-color="#0a0a0a"}
 
 ::: {.center-v}
-### What we still don't know
+### But who plays the curator?
 
-How do we price trust, not hours?
+Maintainers? · Service companies? · Foundations?
 
-How does this stewardship scale?
+AI agents? · The community itself?
 
-If AI skips the beginner work, how do beginners become experienced?
+[We don't know yet.]{.green}
 :::
 
 ::: {.notes}
-Pete. These are real open questions. The talent pipeline worries me most: where will tomorrow's experienced practitioners come from?
+Pete. Include domain experts among the possibilities. Keep this genuinely open.
 :::
 
 ## {#slide-19 background-color="#0a0a0a"}
@@ -227,29 +265,33 @@ Pete. These are real open questions. The talent pipeline worries me most: where 
 ::: {.center-v}
 ### Our wildest hope
 
-More people get to create.
+More people create.
 
-More kinds of expertise shape software.
+Communities shape what survives.
 
-We make things worth maintaining—not more slop.
+Curators make abundance useful.
+
+[The goal is not simply more code.]{.detail}
 :::
 
 ::: {.notes}
-Pete. The hopeful version is wider participation, more human creativity, and more time spent making the right things well.
+Pete. Emphasize participation, community agency, and durable infrastructure.
 :::
 
 ## {#slide-20 background-color="#0a0a0a"}
 
 ::: {.center-v}
-### AI makes it easier to create software.
+### AI can generate possibilities.
 
-Our work is helping it become something people can trust.
+People still decide what becomes shared infrastructure.
+
+[Attention · Judgment · Community]{.detail}
 
 [Come find us.]{.green}
 :::
 
 ::: {.notes}
-Both. That's what we've been living. Come tell us what you're seeing. Thank you.
+Both. Ask the room who should play the curator. Thank you.
 :::
 
 ## {#slide-applause background-color="#0a0a0a"}
