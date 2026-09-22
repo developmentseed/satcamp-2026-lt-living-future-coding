@@ -52,7 +52,7 @@ Pete. Connect this to last year's talk.
 ## {#slide-3 background-color="#0a0a0a"}
 
 ::: {.center-v}
-### This year, their projects are arriving at our door.
+### This year, we've been receiving vibe-coded projects.
 
 [People aren't waiting for a software team to start building—and their projects work.]{.detail}
 :::
