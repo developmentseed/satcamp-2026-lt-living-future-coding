@@ -207,16 +207,6 @@ Pete. This year, nearly everyone seems to have reached acceptance.
 ["Vibe-coding" has many flavors.]{.detail}
 :::
 
-## {#slide-10 background-color="#0a0a0a"}
-
-::: {.center-v}
-### Good vibe-coding is still software engineering
-
-[Vibe-coded projects can be excellent software.]{.orange}
-
-[Tests — CI/CD — Architectural patterns — Sharp, focused tools]{.detail}
-:::
-
 ## {#slide-11 background-color="#0a0a0a"}
 
 ::: {.center-v}
@@ -247,6 +237,26 @@ Zac. Name users, partners, organizations, and the people doing the work.
 [Human-centric design still requires humans]{.orange}
 :::
 
+## {#slide-15 background-color="#0a0a0a"}
+
+::: {.center-v}
+### Once you decide what to build, how you build?
+:::
+
+::: {.notes}
+Zac.
+:::
+
+## {#slide-10 background-color="#0a0a0a"}
+
+::: {.center-v}
+### Good vibe-coding is still software engineering
+
+[Vibe-coded projects can be excellent software.]{.orange}
+
+[Tests — CI/CD — Architectural patterns — Sharp, focused tools]{.detail}
+:::
+
 ## {#slide-16 background-color="#0a0a0a"}
 
 ::: {.center-v}
@@ -261,86 +271,20 @@ Zac. Name users, partners, organizations, and the people doing the work.
 Zac. Contrast this with receiving a wall of generated code.
 :::
 
-## {#slide-17 background-color="#0a0a0a"}
-
-::: {.center-v}
-### After: the code keeps arriving.
-
-[Contributions · Forks · Experiments · Feature requests]{.detail}
-:::
-
-::: {.notes}
-Zac. Shipping is no longer the end.
-:::
-
 ## {#slide-18 background-color="#0a0a0a"}
 
 ::: {.center-v}
-### Maintainership is becoming curation.
+### Maintenance still matters.
 
-[Shape an abundant stream of possible changes.]{.detail}
-:::
-
-::: {.notes}
-Zac. Maintenance still matters; its center of gravity is shifting. Hand off to Pete.
+[It might look different, but you still gotta do it.]{.detail}
 :::
 
 ## {#slide-19 background-color="#0a0a0a"}
 
 ::: {.center-v}
-### What belongs?
+### Incentives for software collaboration are lower.
 
-### What works?
-
-### What lasts?
-
-[Purpose · Trust · What the community can sustain]{.detail}
-:::
-
-::: {.notes}
-Pete.
-:::
-
-## {#slide-20 background-color="#0a0a0a"}
-
-::: {.center-v}
-### An open-source project is not its repository.
-
-[It is a community.]{.orange}
-
-[Users · Contributors · Institutions · Expectations · Disagreements]{.detail}
-:::
-
-::: {.notes}
-Pete. The relationships are part of the project too.
-:::
-
-## {#slide-21 background-color="#0a0a0a"}
-
-::: {.center-v}
-### Community management does not automate away.
-
-[Welcome · Explain · Resolve · Connect · Build trust]{.detail}
-:::
-
-::: {.notes}
-Pete. Someone still has to do this work.
-:::
-
-## {#slide-22 background-color="#0a0a0a"}
-
-::: {.center-v}
-### But who plays the curator?
-
-Maintainers? · Service companies? · Foundations?
-
-AI agents? · The community itself?
-
-[We don't know yet.]{.orange}
-:::
-
-::: {.notes}
-Pete. Include domain experts among the possibilities. Keep this genuinely open.
+[When it's so easy to make your own thing, why would you help on an open-source project?]{.detail}
 :::
 
 ## {#slide-23 background-color="#0a0a0a"}
@@ -355,38 +299,10 @@ Pete. Include domain experts among the possibilities. Keep this genuinely open.
 Pete. Include domain experts among the possibilities. Keep this genuinely open.
 :::
 
-## {#slide-23 background-color="#0a0a0a"}
-
-::: {.center-v}
-### Our wildest hope
-
-More people create.
-
-Communities shape what survives.
-
-Curators make abundance useful.
-
-[The goal is not simply more code.]{.detail}
-:::
-
-::: {.notes}
-Pete. Emphasize participation, community agency, and durable infrastructure.
-:::
-
 ## {#slide-24 background-color="#0a0a0a"}
 
 ::: {.center-v}
-### AI can generate possibilities.
-
-People still decide what becomes shared infrastructure.
-
-[Attention · Judgment · Community]{.detail}
-
-[Come find us.]{.orange}
-:::
-
-::: {.notes}
-Both. Ask the room who should play the curator. Thank you.
+### What will next year's presentation be about?
 :::
 
 ## {#slide-applause background-color="#0a0a0a"}
