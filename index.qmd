@@ -247,17 +247,14 @@ Zac. Name users, partners, organizations, and the people doing the work.
 [Human-centric design still requires humans]{.orange}
 :::
 
-## {#slide-14 background-color="#0a0a0a"}
-
-::: {.center-v}
-![](images/test.svg){fig-alt="Checklist icon" width=260}
-
 ## {#slide-16 background-color="#0a0a0a"}
 
 ::: {.center-v}
-### Small iterations keep the work understandable.
+### Mind the three filters
 
-[Small PRs · Short feedback loops · Shared ownership]{.detail}
+[True · Kind · Necessary]{.orange}
+
+[Small PRs · Understand your contribution · Short feedback loops · Shared ownership]{.detail}
 :::
 
 ::: {.notes}
