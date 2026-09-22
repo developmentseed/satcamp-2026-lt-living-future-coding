@@ -103,6 +103,20 @@ $presentation-h2-font-size: 1.8em;
   width: 100%;
 }
 
+.grief-label-row {
+  display: flex;
+  width: 100%;
+}
+
+.grief-label-span {
+  flex: 4 1 0;
+  text-align: center;
+}
+
+.grief-label-spacer {
+  flex: 1 1 0;
+}
+
 .grief-stage {
   display: flex;
   flex: 1 1 0;

@@ -66,7 +66,13 @@ Pete.
 ::: {.center-v}
 ### The five stages of AI coding grief
 
-[Last year →]{.detail}
+::: {.grief-label-row}
+::: {.grief-label-span}
+[Last year]{.stage-year}
+:::
+::: {.grief-label-spacer}
+:::
+:::
 
 ::: {.grief-cycle}
 ::: {.grief-stage}
@@ -120,9 +126,9 @@ Pete. Last year, our industry was cycling through the first four stages. This ye
 ## {#slide-5 background-color="#0a0a0a"}
 
 ::: {.center-v}
-### Until they need to survive.
+### Vibe-coded projects have a short shelf life
 
-[Another developer · Security · Operations · Life beyond the prompt]{.detail}
+[Security · Operations · Maintinance · Depth of product]{.detail}
 :::
 
 ::: {.notes}
