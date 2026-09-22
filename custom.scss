@@ -1,6 +1,6 @@
 /*-- scss:defaults --*/
 $font-family-sans-serif: 'Sulphur Point', sans-serif;
-$presentation-slide-text-align: left;
+$presentation-slide-text-align: center;
 $presentation-h1-font-size: 2.5em;
 $presentation-h2-font-size: 1.8em;
 
@@ -60,12 +60,11 @@ $presentation-h2-font-size: 1.8em;
 }
 
 .center-v {
-  position: absolute;
-  inset: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
   text-align: center;
   gap: 1rem;
 }
@@ -155,4 +154,17 @@ $presentation-h2-font-size: 1.8em;
   line-height: 1;
   display: inline-block;
   animation: clap 0.5s ease-in-out infinite alternate;
+}
+
+.stamp {
+  display: inline-block;
+  border: 4px solid #09e57b;
+  border-radius: 50%;
+  color: #09e57b;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 1.2rem 1.8rem;
+  transform: rotate(-10deg);
+  font-size: 1.6rem;
 }

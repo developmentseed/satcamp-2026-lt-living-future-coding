@@ -1,10 +1,11 @@
 ---
-title: "Your Talk Title"
+title: "How We've Been Living the Future of Coding"
 subtitle: "SatCamp Lightning Talk"
-author: "Your Name"
+author: ["Zac Déziel", "Pete Gadomski"]
 format:
   revealjs:
     theme: [default, custom.scss]
+    center: true
     auto-slide: 15000
     auto-slide-stoppable: false
     slide-number: false
@@ -21,195 +22,235 @@ title-slide-attributes:
   data-background-color: "#0a0a0a"
 ---
 
-## Basics {#slide-1 background-color="#0a0a0a" .hide-title}
-
-This is some simple content for Slide 1.
-
-This content for all slides can be updated by editing the `index.qmd` file.
-
-It uses the **markdown** markup language, which has a simple syntax for formatting text. The Quarto docs have a good [reference](https://quarto.org/docs/authoring/markdown-syntax.html) for the syntax.
-
-
-## Images {#slide-2}
-
-You can add images to slides by embedding the image file in the slide content.
-
-![](https://images.pexels.com/photos/11379990/pexels-photo-11379990.jpeg){width=500 fig-align="center"}
-
-## Images - Absolute Placement {#slide-3}
-
-You can also place multiple images at precise positions with the `.absolute` class and `top`/`left`/`bottom`/`right` offsets (in pixels, on a 1600 × 900 slide).
-
-![](https://images.pexels.com/photos/11379990/pexels-photo-11379990.jpeg){.absolute top=250 left=80 width=380}
-
-![](https://images.pexels.com/photos/11379990/pexels-photo-11379990.jpeg){.absolute top=350 left=180 width=380 fig-alt="Line-art mountain range"}
-
-![](images/results.svg){.absolute bottom=90 right=120 width=360 fig-alt="Line chart trending upward"}
-
-
-## SVG Graphics {#slide-4}
-
-You can add SVG graphics for line art, like the one below, by referencing an SVG file.
-
-![](images/satcamp-logo.svg)
-
-
-## SatCamp Icons {#slide-5}
+## {#slide-1 background-color="#0a0a0a"}
 
 ::: {.center-v}
-![](images/satcamp-icons.svg){fig-alt="SatCamp icon lockup: hiker, satellite, mountains, bike and globe"}
+### We're Zac & Pete — Development Seed
 
-### Earth observation community
+This is what we're seeing from inside the work.
+:::
+
+::: {.notes}
+Zac. Quick hello: we're Zac and Pete from Development Seed. Last year, Pete shared an idea about where coding was headed.
+:::
+
+## {#slide-2 background-color="#0a0a0a"}
+
+::: {.center-v}
+### Last year, Pete predicted more people would create software.
+:::
+
+::: {.notes}
+Pete. AI would let more people manifest their ideas in code—not just people with “software engineer” in their title.
+:::
+
+## {#slide-3 background-color="#0a0a0a"}
+
+::: {.center-v}
+### This year, their projects are arriving at our door.
+:::
+
+::: {.notes}
+Pete. That prediction is already coming true. We're meeting people who didn't wait for a software team to start building.
+:::
+
+## {#slide-4 background-color="#0a0a0a"}
+
+::: {.center-v}
+![](images/problem.svg){fig-alt="Stick figure surrounded by question marks" width=280}
+
+### And they work.
+:::
+
+::: {.notes}
+Pete. These aren't imaginary demos. People have built useful things, tested an idea, and found users.
+:::
+
+## {#slide-5 background-color="#0a0a0a"}
+
+::: {.center-v}
+### Until they need to survive.
+:::
+
+::: {.notes}
+Pete. Then the project needs another developer, real users, security, operations, or a life beyond the original prompt.
 :::
 
 ## {#slide-6 background-color="#0a0a0a"}
 
 ::: {.center-v}
-![](images/mountains.svg){fig-alt="Line-art mountain range"}
+### AI reduced the cost of starting.
 
-### Colorado, USA
+[Not the cost of understanding.]{.green}
 :::
 
+::: {.notes}
+Pete. Implementation got cheaper. The work around it didn't disappear; it became easier to see.
+:::
 
 ## {#slide-7 background-color="#0a0a0a"}
 
 ::: {.center-v}
-![](images/lightning-talk.svg){fig-alt="Stick figure standing at a podium"}
+![](images/human-network.svg){fig-alt="A dense network of interconnected people with several relationships highlighted" width=1050}
 
-### ⚡ 5 minutes to share anything
+### Clarity lives in relationships.
 :::
 
+::: {.notes}
+Zac. A model can hold a lot of context. It cannot own the nuance between users, partners, organizations, and the people doing the work.
+:::
 
 ## {#slide-8 background-color="#0a0a0a"}
 
 ::: {.center-v}
-::: {.formula}
-[20]{.highlight} slides  ×  [15]{.highlight} seconds  =  **5 minutes**
-:::
+### Before: what is actually worth building?
 :::
 
+::: {.notes}
+Zac. Before implementation, our job is to understand the real problem—not merely turn the first request into code.
+:::
 
 ## {#slide-9 background-color="#0a0a0a"}
 
 ::: {.center-v}
-![](images/one-idea.svg){fig-alt="A slide with an arrow pointing to a circle containing the number 1"}
-
-### One slide. One idea.
+### During: agree on how AI participates.
 :::
 
+::: {.notes}
+Zac. Treat the agent like a collaborator. Set ground rules for what it generates, what people review, and how decisions get recorded.
+:::
 
 ## {#slide-10 background-color="#0a0a0a"}
 
 ::: {.center-v}
-![](images/show-and-tell.svg){fig-alt="Four stick figures gathered around a table with a laptop"}
+![](images/test.svg){fig-alt="Checklist icon" width=260}
 
-### 🎤 Show & Tell — no slides required
+### Tests are part of the prompt.
 :::
 
+::: {.notes}
+Zac. Tests aren't cleanup after generation. They're part of defining what correct means from the beginning.
+:::
 
 ## {#slide-11 background-color="#0a0a0a"}
 
 ::: {.center-v}
-![](images/demo-flow.svg){fig-alt="Three boxes labelled demo, questions and iterate connected by arrows"}
+### CI/CD · linting · security scanning
 
-### Demo → Questions → Iterate
+[Guardrails, not garnish.]{.green}
 :::
 
+::: {.notes}
+Zac. The usual engineering practices matter more when code can arrive faster than people can understand it.
+:::
 
 ## {#slide-12 background-color="#0a0a0a"}
 
 ::: {.center-v}
-![](images/sharing-ideas.svg){fig-alt="Stick figure pointing up at a glowing lightbulb"}
-
-### Sharing sparks new ideas
+### Small iterations keep the work understandable.
 :::
 
+::: {.notes}
+Zac. Small pull requests and short feedback loops let a team maintain shared ownership instead of receiving a wall of generated code.
+:::
 
 ## {#slide-13 background-color="#0a0a0a"}
 
 ::: {.center-v}
-<img src="https://satcamp.xyz/assets/logistics-BLk3ooeQ.jpg" style="max-height: 420px; border-radius: 8px;">
-
-### **[Your hook here]** {.muted}
-
-[Replace this slide with your opening line]{.muted}
+### After: following through, validating, recentering?
 :::
 
+::: {.notes}
+Zac. Productionizing isn't just finishing a repository. Someone has to validate the result and take responsibility for what happens next.
+:::
 
 ## {#slide-14 background-color="#0a0a0a"}
 
-
 ::: {.center-v}
-![](images/problem.svg){fig-alt="Stick figure surrounded by question marks"}
+[APPROVED]{.stamp}
 
-### **[The Problem]** {.muted}
-
-[What's broken or missing?]{.muted}
+Not a prompt. A relationship.
 :::
 
+::: {.notes}
+Zac. This is the value we keep returning to: judgment, trust, and the willingness to put our name on the result.
+:::
 
 ## {#slide-15 background-color="#0a0a0a"}
 
 ::: {.center-v}
-![](images/big-idea.svg){fig-alt="Glowing lightbulb"}
-
-### **[The Big Idea]** {.muted}
-
-[Your core insight in one sentence]{.muted}
+### Writing code is becoming a smaller part of coding.
 :::
 
+::: {.notes}
+Pete. Code still matters. But producing lines of it is becoming a smaller share of the complete job.
+:::
 
 ## {#slide-16 background-color="#0a0a0a"}
 
 ::: {.center-v}
-![](images/how-it-works.svg){fig-alt="Three numbered circles connected by arrows"}
-
-### **[How It Works]** {.muted}
-
-[Step 1 → Step 2 → Step 3]{.muted}
+### The practitioner's job is becoming larger.
 :::
 
+::: {.notes}
+Pete. We review, hold context, make design calls, understand risk, talk to users, and maintain the system after the exciting part.
+:::
 
 ## {#slide-17 background-color="#0a0a0a"}
 
 ::: {.center-v}
-![](images/live-demo.svg){fig-alt="Browser window with placeholder text lines"}
-
-### **[Live Demo]** {.muted}
-
-[Screenshot, GIF, or live walkthrough]{.muted}
+### More creators. More need for practitioners.
 :::
 
+::: {.notes}
+Pete. Vibe-coded projects are not failures. They are unfinished successes—and they create more demand for people who know how to help them endure.
+:::
 
 ## {#slide-18 background-color="#0a0a0a"}
 
-<!-- Slide 17: [Results] — template slide -->
-
 ::: {.center-v}
-![](images/results.svg){fig-alt="Line chart trending upward"}
+### What we still don't know
 
-### **[Results]** {.muted}
+How do we price trust, not hours?
 
-[One metric that got measurably better]{.muted}
+How does this stewardship scale?
+
+If AI skips the beginner work, how do beginners become experienced?
 :::
 
+::: {.notes}
+Pete. These are real open questions. The talent pipeline worries me most: where will tomorrow's experienced practitioners come from?
+:::
 
 ## {#slide-19 background-color="#0a0a0a"}
 
- Links
+::: {.center-v}
+### Our wildest hope
 
-[satcamp.xyz](https://satcamp.xyz)
+More people get to create.
 
-[Past lightning talks](https://satcamp.xyz/#sessions)
+More kinds of expertise shape software.
 
-[This template on GitHub](https://github.com/satcamp/lightning-talk-quarto-TEMPLATE)
+We make things worth maintaining—not more slop.
+:::
 
+::: {.notes}
+Pete. The hopeful version is wider participation, more human creativity, and more time spent making the right things well.
+:::
 
 ## {#slide-20 background-color="#0a0a0a"}
 
-[Another result, a next step, or a closing thought]{.muted}
+::: {.center-v}
+### AI makes it easier to create software.
+
+Our work is helping it become something people can trust.
+
+[Come find us.]{.green}
 :::
 
+::: {.notes}
+Both. That's what we've been living. Come tell us what you're seeing. Thank you.
+:::
 
 ## {#slide-applause background-color="#0a0a0a"}
 
