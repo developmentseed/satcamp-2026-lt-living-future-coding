@@ -42,6 +42,7 @@ Zac. Quick hello, then hand off to Pete.
 ### Last year, Pete predicted more people would create software.
 
 [Not just people with “software engineer” in their title.]{.detail}
+[It wasn't that bold of a prediction.]{.detail .scribble}
 :::
 
 ::: {.notes}

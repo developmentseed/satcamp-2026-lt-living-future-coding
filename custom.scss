@@ -5,7 +5,7 @@ $presentation-h1-font-size: 2.5em;
 $presentation-h2-font-size: 1.8em;
 
 /*-- scss:rules --*/
-@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&family=Caveat:wght@500;600&display=swap');
 
 .reveal-viewport {
   background-color: #0a0a0a;
@@ -88,6 +88,11 @@ $presentation-h2-font-size: 1.8em;
   color: rgba(250, 250, 250, 0.76);
   font-size: 0.68em;
   line-height: 1.35;
+}
+
+.scribble {
+  font-family: 'Caveat', cursive;
+  color: #f5a623;
 }
 
 .grief-cycle {
