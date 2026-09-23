@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">A complex network of people and relationships</title>
+  <desc id="desc">Interconnected human figures form a dense web, with several relationships highlighted in green.</desc>
+  <defs>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <g id="person">
+      <circle cy="-8" r="9" fill="#0a0a0a" stroke="currentColor" stroke-width="3"/>
+      <path d="M-16 22c2-15 8-22 16-22s14 7 16 22" fill="#0a0a0a" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <g fill="none" stroke="#fafafa" stroke-opacity=".17" stroke-width="2">
+    <path d="M92 112 244 62 372 142 510 76 648 132 812 65 958 142 1100 92"/>
+    <path d="M92 112 184 258 78 410M244 62 184 258 334 286 372 142M510 76 334 286 522 402 648 132M648 132 700 274 812 65 958 142M700 274 848 360 958 142 1100 92M848 360 1038 424 1100 92"/>
+    <path d="M78 410 184 258 334 286 522 402 700 274 848 360 1038 424"/>
+    <path d="M92 112 334 286M244 62 510 76M184 258 372 142M334 286 648 132M510 76 700 274M522 402 848 360M648 132 848 360M700 274 958 142M812 65 1100 92M958 142 1038 424"/>
+    <path d="M78 410 334 286M184 258 522 402M372 142 700 274M510 76 812 65M648 132 958 142M700 274 1038 424"/>
+  </g>
+
+  <g fill="none" stroke="#CF3F02" stroke-width="4" stroke-linecap="round" filter="url(#glow)">
+    <path d="M184 258 334 286 372 142 510 76"/>
+    <path d="M334 286 522 402 700 274 848 360"/>
+    <path d="M648 132 700 274 958 142"/>
+  </g>
+
+  <g color="#fafafa">
+    <use href="#person" transform="translate(92 112)"/><use href="#person" transform="translate(244 62)"/>
+    <use href="#person" transform="translate(372 142)"/><use href="#person" transform="translate(510 76)"/>
+    <use href="#person" transform="translate(648 132)"/><use href="#person" transform="translate(812 65)"/>
+    <use href="#person" transform="translate(958 142)"/><use href="#person" transform="translate(1100 92)"/>
+    <use href="#person" transform="translate(78 410)"/><use href="#person" transform="translate(1038 424)"/>
+  </g>
+  <g color="#CF3F02" filter="url(#glow)">
+    <use href="#person" transform="translate(184 258)"/><use href="#person" transform="translate(334 286)"/>
+    <use href="#person" transform="translate(522 402)"/><use href="#person" transform="translate(700 274)"/>
+    <use href="#person" transform="translate(848 360)"/>
+  </g>
+</svg>
